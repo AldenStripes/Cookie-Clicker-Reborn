@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(44, 135, 192);
+    color: rgba(223, 212, 197, 1);
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    /* background-image:url(https://media.tenor.com/xefRiOCV7GsAAAAj/confetti-girl-scout.gif); background-repeat:repeat; */
+  }
+  h1 {
+    color: rgb(273, 262, 247);
+    font-size: 28px;
+  }
+  p {
+    font-family: Poppins;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  .cookie {
+    background-color: rgb(235, 217, 181);
+    border-width: 0px;
+    border-radius: 100px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: bold;
+    color: rgb(185, 109, 64);
+    border: solid;
+    box-shadow: 4px 5px 10px rgba(255, 255, 255, 0.2);
+    transition: background-color 0.15s, color 0.15s, opacity 0.15s;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  .cookie:hover {
+    background-color: rgb(241, 200, 119);
+  }
+  .cookie:active {
+    margin-top: 8px;
+    margin-left: 8px;
+    box-shadow: none;
+    margin-bottom: 0px;
+    background-color:rgb(219, 155, 82);
+  }
+  p {
+    color: white;
+  }
+  input::-webkit-outer-spin-button, /*to get rid of the arrows on the input thing */
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input {
+    background-color: red;
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    width: 25px;
+    height: 25px;
+    color: white;
+    border-color: black;
+  }
+  .reborn {
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .buttonDecoration {
+    cursor: pointer;
+    background-color: rgb(245, 212, 145);
+    border-color: rgb(185, 109, 64);
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: background-color 0.15s, color 0.15s, opacity 0.15s;
+  
+  }
+  .buttonDecoration:hover {
+    background-color: rgb(190, 144, 51);
+    color: white;
+    border-width: 3px;
+  }
+  .golden {
+    color: gold;
+  }

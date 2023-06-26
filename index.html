@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Cookie Clicker<br /><span class="reborn">Reborn</span></h1>
+    <p id="chipsMade">Click on the cookie to start cooking!</p>
+    <button class="cookie" onclick="cookieMade(clickPower)">
+      <img
+        src="https://purepng.com/public/uploads/large/purepng.com-american-cookiecookieamericandelicioussnacksweetyummybiscuit-21525886868xdoig.png"
+        alt="cookie.png"
+        id="cookieThing"
+      />
+    </button>
+    <p id="clickPower">Click Power: 1</p>
+    <p id="clickersHired">Clickers hired: 0</p>
+    <p id="prestige" class="golden">
+      Golden Chips (every <span id="goldenChipCost">100</span> chips): 0
+    </p>
+
+    <button class="buttonDecoration" onclick="increaseClick()">
+      Increase Click Power <br />(<span id="increaseClickID">10</span> chips)
+    </button>
+
+    <button class="buttonDecoration" onclick="hiredClicker()">
+      Hire Clicker<br />(<span id="hireClickerID">20</span> chips)
+    </button>
+    <button class="buttonDecoration" onclick="double()">
+      Double all current stats<br />(5 golden chips)
+    </button>
+  </body>
+</html>
