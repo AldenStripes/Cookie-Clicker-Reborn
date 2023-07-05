@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="index.css" />
+    <title>Cookie Clicker Reborn</title>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <script src="index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +18,7 @@
     <button class="cookie" onclick="cookieMade(clickPower)">
       <img
         src="https://purepng.com/public/uploads/large/purepng.com-american-cookiecookieamericandelicioussnacksweetyummybiscuit-21525886868xdoig.png"
-        alt="cookie.png"
+        alt="Cookie"
         id="cookieThing"
       />
     </button>
@@ -26,15 +28,18 @@
       Golden Chips (every <span id="goldenChipCost">100</span> chips): 0
     </p>
 
-    <button class="buttonDecoration" onclick="increaseClick()">
-      Increase Click Power <br />(<span id="increaseClickID">10</span> chips)
-    </button>
+    <div>
+      <button class="buttonDecoration" onclick="increaseClick()">
+        Increase Click Power <br />(<span id="increaseClickID">10</span> chips)
+      </button>
 
-    <button class="buttonDecoration" onclick="hiredClicker()">
-      Hire Clicker<br />(<span id="hireClickerID">20</span> chips)
-    </button>
-    <button class="buttonDecoration" onclick="double()">
-      Double all current stats<br />(5 golden chips)
-    </button>
+      <button class="buttonDecoration" onclick="hiredClicker()">
+        Hire Clicker<br />(<span id="hireClickerID">20</span> chips)
+      </button>
+      <button class="buttonDecoration" onclick="double()">
+        Double all current stats<br />(5 golden chips)
+      </button>
+    </div>
+    <p>Created by: Alden Wang and John Mannully</p>
   </body>
 </html>

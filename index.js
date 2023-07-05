@@ -27,7 +27,7 @@ function cookieMade(cookieMult) {
   }
   document.getElementById("prestige").innerHTML =
     "Golden Chips (every 100 chips): " + goldenChips;
-  totalChips =+ chips;
+  totalChips += chips;
 }
 function hiredClicker() {
   if(chips >= hireClickCost){
@@ -54,15 +54,10 @@ function increaseClick() {
 function double() {
   if (goldenChips>=5) {
     goldenChips -= 5;
-    goldenChips -= (Math.floor(chips / 100)) / 2 ;
-    chips *= 2;
+    goldenChipCost += 100;
     numOfAutoclickers *= 2;
     clickPower *= 2;
-    goldenChipCost *= 2;
-    document.getElementById("goldenChipCost").innerHTML = goldenChipCost;
-    document.getElementById("clickersHired").innerHTML = "Clickers hired: " + numOfAutoclickers;
-  
-  document.getElementById("clickPower").innerHTML = "Click Power: " + clickPower;
   }
-  
+  document.getElementById("clickersHired").innerHTML = "Clickers hired: " + numOfAutoclickers;
+  document.getElementById("clickPower").innerHTML = "Click Power: " + clickPower;
 }
